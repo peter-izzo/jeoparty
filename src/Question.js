@@ -9,7 +9,7 @@ let question;
 //what I wanted it to
 async function test1() {
     try {
-        const resp = await fetch('http://jservice.io/api/random');
+        const resp = await fetch('https://jservice.io/api/random');
         const data = await resp.json();
         console.log(data);
         console.log("Question value: ", data[0]['value']);
