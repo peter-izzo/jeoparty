@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Board from './Board';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
+
+library.add(faArrowDown)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+    <Board />
+    //<App />
+  ,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
