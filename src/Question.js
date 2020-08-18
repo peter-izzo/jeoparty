@@ -53,7 +53,7 @@ class Question extends Component {
 
     //after component renders async function is run so info can be displayed
     async componentDidMount() {
-        const resp = await fetch('http://jservice.io/api/random');
+        const resp = await fetch('https://jservice.io/api/random');
         const json = await resp.json();
         this.setState({ data: json });
     }
