@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9be79bdd5f1b3a72c1785ec912ef5cef",
+    "revision": "aed679d1c61f36533d5d5b0569cac02b",
     "url": "/jeoparty/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jeoparty/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "e148b711d1246cd95671",
+    "revision": "dee7547a5bcc96f3a368",
     "url": "/jeoparty/static/css/main.c1b68019.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jeoparty/static/js/2.13838b3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e148b711d1246cd95671",
-    "url": "/jeoparty/static/js/main.661d7c4f.chunk.js"
+    "revision": "dee7547a5bcc96f3a368",
+    "url": "/jeoparty/static/js/main.9769b35f.chunk.js"
   },
   {
     "revision": "afeb36b436bfb7b7bd12",
